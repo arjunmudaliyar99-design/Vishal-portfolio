@@ -410,7 +410,9 @@ em     { font-style: italic; }
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .case-file-label {
@@ -426,7 +428,7 @@ em     { font-style: italic; }
   font-size: 0.58rem;
   color: var(--outcome);
   letter-spacing: 0.1em;
-  white-space: nowrap;
+  word-break: break-word;
 }
 
 .case-body { padding: 1.75rem 2rem; }
