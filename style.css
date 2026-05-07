@@ -812,6 +812,30 @@ em     { font-style: italic; }
 
 .substack-cta-link:hover { background: var(--gray-800); }
 
+/* ── HYROX Photo Block ──────────────────────────────────── */
+.hyrox-photo-block {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.hyrox-photo {
+  width: 100%;
+  max-height: 520px;
+  object-fit: cover;
+  object-position: center 30%;
+  border: 1px solid var(--gray-200);
+  display: block;
+}
+
+.hyrox-caption {
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gray-400);
+  margin-top: 0.75rem;
+}
+
 /* ══════════════════════════════════════════════════════════
    FOOTER
 ══════════════════════════════════════════════════════════ */
